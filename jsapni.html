@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 1300px;
+        height: 500px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        padding: 3px 5px;
+        background: linear-gradient(45deg,red,blue);
+        text-decoration: none;
+        font-size: 1.2rem;
+        width: 4rem;
+        color: white;
+        border: none;
+        margin-left: 10px;
+    }
+    .inpt{
+        width: 180px;
+        height: 1.5rem;
+    }
+    .div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .ul{
+        width: 210px;
+        height: 1.6rem;
+        text-align: center;
+    }
+    .ul li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .yo{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 5px;
+        margin-right: 100px;
+    }
+
+</style>
+<body>
+    <section>
+        <div class="container">
+            <input type="enter name" placeholder="text" class="inpt">
+            <button id="btn">add</button>
+        </div>
+        <div class="div">
+            <ul class="ul">
+                <li class="yo">one peice</li>
+            </ul>
+        </div>
+    </section>
+    <script>
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click',addItems);
+
+        function addItems(){
+            
+
+        }
+    </script>
+</body>
+</html>
